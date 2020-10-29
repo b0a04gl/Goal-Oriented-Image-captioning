@@ -1,28 +1,42 @@
-Goal-Oriented-Image-captioning
+# Goal-Oriented-Image-captioning
 
 Involves computer vision and natural language processing concepts to recognize the context of an image and describe them in a natural language like English.
 
-Dataset:
+# Dataset:
 
-Link : https://vizwiz.org/tasks-and-datasets/image-captioning/
+# Link : https://vizwiz.org/tasks-and-datasets/image-captioning/
 
-Name : VizWiz-Captions dataset 23,431 training images 117,155 training captions 7,750 validation images 38,750 validation captions 8,000 test images 40,000 test captions
+# Name : 
+VizWiz-Captions dataset 
+23,431 training images 
+117,155 training captions
+7,750 validation images 
+38,750 validation captions 
+8,000 test images
+40,000 test captions
 
-Image files format: images = [image] image = { "file_name": "VizWiz_train_00023410.jpg", "id": 23410 "text_detected": true }
+# Image files format: 
 
-Captions file format: annotations = [annotation] annotation = { "image_id": 23410, "id": 117050, "caption": "A plastic rewards card lying face down on the floor." "is_rejected": false, "is_precanned": false, "text_detected": true }
+images = [image] image = { "file_name": "VizWiz_train_00023410.jpg", "id": 23410 "text_detected": true }
 
-Requirements:
+# Captions file format:
+   annotations = [annotation] annotation = { "image_id": 23410, "id": 117050, "caption": "A plastic rewards card lying face down on the floor." "is_rejected": false, "is_precanned": false, "text_detected": true }
 
-1.Tensorflow 2.Keras 3.Numpy 4.h5py 5.Pandas
+# Requirements:
+
+1.Tensorflow 
+2.Keras 
+3.Numpy 
+4.h5py
+5.Pandas
 6.Pillow
 
-Flow :
+# Flow :
 
-    Getting and performing data cleaning
-    Extracting the feature vector from all images
-    Loading dataset for Training the model
-    Tokenizing the vocabulary
-    Defining the CNN-RNN model
-    Train the model
-    Test the model
+Getting and performing data cleaning
+Extracting the feature vector from all images
+Loading dataset for Training the model
+Tokenizing the vocabulary
+Defining the CNN-RNN model
+Train the model
+Test the model
